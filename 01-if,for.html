@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="FengYu">
+    <title>title</title>
+    <style>
+        *{margin:0;padding:0;font-family: Microsoft YaHei,serif;}
+	    li{list-style: none;}
+        div{
+            width: 100px;
+            height: 200px;
+            background-color: pink;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<div>&</div>
+<div>&</div>
+<div>&</div>
+<div>&</div>
+<div>&</div>
+<div>&</div>
+<div>&</div>
+<div>&</div>
+<div>&</div>
+<div>&</div>
+
+
+<script>
+
+
+    let div = document.getElementsByTagName('div')
+    for(var i=0;i<div.length;i++){
+        div[i].index = i;
+        
+        div[i].onclick = function ( ) {
+          console.log(this.index)
+        }
+    }
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
